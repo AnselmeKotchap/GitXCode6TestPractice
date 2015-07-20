@@ -14,6 +14,10 @@
 
 @implementation ViewController
 
+-(void)clickTheButton:(id)sender{
+    NSLog(@"something in the log file");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
